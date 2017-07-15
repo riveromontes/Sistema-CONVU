@@ -13,7 +13,7 @@ class Instructores extends Migration
      */
     public function up()
     {
-        Schema::table('instructores', function($table)
+        Schema::table('instructores', function (Blueprint $table)
         {
            $table->create();
            
