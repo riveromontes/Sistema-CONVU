@@ -13,7 +13,7 @@ class Alumnos extends Migration
      */
     public function up()
     {
-        Schema::table('alumnos', function($table)
+        Schema::table('alumnos', function (Blueprint $table)
         {
            $table->create();
            
