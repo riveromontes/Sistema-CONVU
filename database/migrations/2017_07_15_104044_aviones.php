@@ -13,8 +13,7 @@ class Aviones extends Migration
      */
     public function up()
     {
-        Schema::table('aviones', function (Blueprint $table)
-        {
+        Schema::table('aviones', function (Blueprint $table){
            $table->create();
            
            //crea un campo autoincrementable que será la clave primaria
@@ -43,6 +42,6 @@ class Aviones extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('aviones');
     }
 }

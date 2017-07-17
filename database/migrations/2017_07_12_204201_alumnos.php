@@ -13,8 +13,7 @@ class Alumnos extends Migration
      */
     public function up()
     {
-        Schema::table('alumnos', function (Blueprint $table)
-        {
+        Schema::table('alumnos', function (Blueprint $table){
            $table->create();
            
            //crea un campo autoincrementable que será la clave primaria

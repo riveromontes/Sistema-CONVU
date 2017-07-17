@@ -13,8 +13,7 @@ class Instructores extends Migration
      */
     public function up()
     {
-        Schema::table('instructores', function (Blueprint $table)
-        {
+        Schema::table('instructores', function (Blueprint $table){
            $table->create();
            
            //crea un campo autoincrementable que será la clave primaria
