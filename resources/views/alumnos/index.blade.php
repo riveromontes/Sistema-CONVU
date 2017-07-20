@@ -18,12 +18,11 @@
         <tr>
             <td class="text-center">{{ $alumno->cedula}}</td>
             <td class="text-center">{{ $alumno->nombre}}</td>
-            <td class="text-center">{{ $alumno->apellido }}</td>
-            <td class="text-center">{{ $alumno->ciudad-domicilio}}</td>
-            <td class="text-center">{{ $alumno->telefono-casa}}</td>
-            <td class="text-center">{{ $alumno->telefono-celular}}</td>
+            <td class="text-center">{{ $alumno->apellido}}</td>
+            <td class="text-center">{{ $alumno->ciudad_domicilio}}</td>
+            <td class="text-center">{{ $alumno->telefono_casa}}</td>
+            <td class="text-center">{{ $alumno->telefono_celular}}</td>
             <td class="text-center">{{ $alumno->email}}</td>
-            <td class="text-center">{{ $alumno->isactive}}</td>
             <td>               
               <a href="{{ route('alumnos.show', $alumno->id) }}" class="btn btn-info">Ver</a>
             </td>
