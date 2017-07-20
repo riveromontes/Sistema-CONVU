@@ -34,9 +34,9 @@ class AlumnosSeeder extends Seeder
 	        'cedula' => $cedula_aux,
 	        'nombre' =>  $nombre_aux,
 	        'apellido' =>  $apellido_aux,
-	        'ciudad-domicilio' =>  $ciudad_domicilio_aux,
-	        'telefono-casa' =>  $telefono_casa_aux,
-	        'telefono-celular' =>  $telefono_celular_aux,
+	        'ciudad_domicilio' =>  $ciudad_domicilio_aux,
+	        'telefono_casa' =>  $telefono_casa_aux,
+	        'telefono_celular' =>  $telefono_celular_aux,
 	        'email' => $email_aux
 	        ));
 	    }

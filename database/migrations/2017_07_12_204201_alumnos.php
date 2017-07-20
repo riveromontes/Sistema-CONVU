@@ -26,11 +26,11 @@ class Alumnos extends Migration
            //campo para guardar el apellido
            $table->string('apellido');
            //campo para guardar la ciudad
-           $table->string('ciudad-domicilio');
+           $table->string('ciudad_domicilio');
            //campo para guardar el teléfono de casa
-           $table->string('telefono-casa');
+           $table->string('telefono_casa');
            //campo para guardar el telefono celular
-           $table->string('telefono-celular');
+           $table->string('telefono_celular');
            //campo para guardar el correo electronico
            $table->string('email');
 

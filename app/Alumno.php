@@ -16,7 +16,7 @@ class Alumno extends Model
   //protected $primaryKey = 'idcurrency';
  
   // Denimos los campos de la tabla directamente en la variable de tipo array $fillable
-  protected $fillable =  array('cedula', 'nombre', 'apellido', 'ciudad-domicilio', 'telefono-casa', 'telefono-celular', 'email');
+  protected $fillable =  array('cedula', 'nombre', 'apellido', 'ciudad_domicilio', 'telefono_casa', 'telefono_celular', 'email');
  
   /**
     En la variable $hidden podemos indicar los campos que no queremos que nos devuelvan
