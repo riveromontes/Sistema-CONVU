@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    //return view('Gloria al Dios verdadero');
+    return 'Gloria al único y verdadero Dios';
 });
+
+Route::resource('alumnos', 'AlumnoController');
